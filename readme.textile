@@ -240,7 +240,7 @@ The rest of the function should be clear from the last tutorial.
 
 h2. Your Third Scrape - The New York Times
 
-Our third scrape tackles the New York Times whose front page structure is considerably more complicated than Hacker News. Now to be clear this not that useful since the New York Times provides a fairly comprehensive list of RSS feeds.
+Our third scrape tackles the New York Times whose front page structure is considerably more complicated than Hacker News. Now to be clear this is not that useful since the New York Times provides a fairly comprehensive list of RSS feeds.
 
 Take a look at "*scrape3.clj*":src/tutorial/scrape3.clj. This is a bit longer. Before we dive in let's see how it works. Start up the Clojure REPL if it's not already up and running.
 
@@ -253,7 +253,7 @@ tutorial.scrape3=> (print-stories)
 ... output ...
 </pre>
 
-If you're not continuing from a previous tutorial you'll need to more specific about your loading, using <code>(load "tutorial/scrape3")</code> instead.
+If you're not continuing from a previous tutorial you'll need to be more specific about your loading, using <code>(load "tutorial/scrape3")</code> instead.
 
 Now this isn't perfect for a variety of reasons but it works well enough for the purposes of demonstration. Let's look at the code. At the top of the file we see that we have a variety of selectors.
 
